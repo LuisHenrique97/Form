@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <div class="header">
+            <h2>Seja bem vindo a nossa plataforma</h2>
+            <p>Preencha o cadastro para fazer parte da nossa newslatter</span>
+        </div>
+        <form action="" id="content">
+            <div class="content-label">
+                <label class="label_text">Nome</label>
+                <input type="text" class="input_text">
+
+                <label class="label_text">Email</label>
+                <input type="email" class="input_text">
+
+                <label class="label_text">Idade</label>
+                <input type="number" class="input_text">
+                
+                <label class="label_text">Selecione sua atividade preferida</label>
+                <select class="selected" >
+                    <option value=""></option>
+                    <option value="">Viajar</option>
+                    <option value="">Estudar</option>
+                    <option value="">Correr</option>
+                </select>
+
+                <label class="label_text">Sexo</label>
+
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="Masculino">
+                        Masculino
+                    </label>
+                    <label>
+                        <input type="radio" name="Masculino">
+                        Feminino
+                    </label>
+                </div>
+
+                <label class="label_text">Quais as tecnologias que você deseja estudar</label>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="Masculino">
+                        Javascript
+                    </label>
+                    <label>
+                        <input type="checkbox" name="Masculino">
+                        React Native
+                    </label>
+                    <label>
+                        <input type="checkbox" name="Masculino">
+                        React
+                    </label>
+                    <label>
+                        <input type="checkbox" name="Masculino">
+                        HTML
+                    </label>
+                </div>
+
+                <div class="textArea">
+                    <label class="label_text" for="mensagem">Sugestões</label>
+                    <textarea name="texo" id="mensagem" class="input_text"></textarea>
+                </div>
+                <div>
+                  <Button type="button" class="send" >
+                    Submit
+                  </Button>
+                </div>
+            </div>
+            
+            
+
+        </form>
+    </div>
+</body>
+</html>
